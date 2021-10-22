@@ -1,0 +1,22 @@
+{
+    "name": "SwagExampleApp",
+    "author": "Shopware AG",
+    "views": [
+        "@Storefront",
+        "@Plugins",
+        "@SwagExampleApp"
+    ],
+    "style": [
+        "app/storefront/src/scss/overrides.scss",
+        "@Storefront",
+        "app/storefront/src/scss/base.scss"
+    ],
+    "script": [
+        "@Storefront",
+        "app/storefront/dist/storefront/js/swag-example-app.js"
+    ],
+    "asset": [
+        "@Storefront",
+        "app/storefront/src/assets"
+    ]
+}

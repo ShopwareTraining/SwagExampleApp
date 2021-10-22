@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/Framework/App/Manifest/Schema/manifest-1.0.xsd">
+    <meta>
+        <name>SwagExampleApp</name>
+        <label>SwagExampleApp</label>
+        <description>An example app</description>
+        <author>Shopware AG</author>
+        <copyright>(c) by Shopware AG</copyright>
+        <version>0.0.1</version>
+        <license>MIT</license>
+    </meta>
+    <permissions>
+        <read>product</read>
+        <create>product</create>
+        <update>product</update>
+        <delete>order</delete>
+    </permissions>
+</manifest>
